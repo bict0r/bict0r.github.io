@@ -1,0 +1,8 @@
+/public/
+/resources/
+.hugo_build.lock
+.DS_Store
+*.swp
+*.swo
+*~
+thinkpad-cachyos-lab.code-workspace

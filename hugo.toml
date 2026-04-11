@@ -1,4 +1,52 @@
 baseURL = 'https://bict0r.github.io/'
 languageCode = 'en-us'
 title = 'Victor Fernandez'
-theme = 'ananke'
+theme = 'risotto'
+copyright = '© Victor Fernandez'
+enableInlineShortcodes = true
+
+[params]
+  author = "Victor Fernandez"
+
+[params.theme]
+  palette = "base16-dark-custom"
+
+# Sidebar bio
+[params.about]
+  title = "Victor Fernandez"
+  description = "Software developer documenting things I've built and learned."
+  logo = ">"
+
+# Social links (FontAwesome 6 icons)
+[[params.socialLinks]]
+  icon = "fa-brands fa-github"
+  title = "GitHub"
+  url = "https://github.com/bict0r"
+
+# Navigation menu
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "Posts"
+    url = "/posts/"
+    weight = 2
+  [[menu.main]]
+    name = "Projects"
+    url = "/projects/"
+    weight = 3
+
+[taxonomies]
+  tag = "tags"
+
+# Enable raw HTML in markdown
+[markup.goldmark.renderer]
+  unsafe = true
+
+# Table of contents (add toc = true to any post's front matter to enable)
+[markup.tableOfContents]
+  startLevel = 2
+  endLevel = 3
+  ordered = true

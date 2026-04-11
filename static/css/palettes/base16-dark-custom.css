@@ -1,0 +1,23 @@
+/* GitHub Dark
+ * Source: terminalcolors.com/themes/github/dark/
+ * Maps Alacritty terminal colors to base16 roles
+ */
+
+:root {
+	--base00: #010409; /* background */
+	--base01: #0d1117; /* lighter background — panels */
+	--base02: #161b22; /* code block background */
+	--base03: #6e7681; /* comments — bright black */
+	--base04: #b1bac4; /* secondary text — normal white */
+	--base05: #e6edf3; /* default foreground */
+	--base06: #e6edf3; /* light foreground */
+	--base07: #ffffff; /* white */
+	--base08: #ff7b72; /* red — errors, deletions */
+	--base09: #d29922; /* orange — numbers, constants */
+	--base0A: #e3b341; /* yellow — classes */
+	--base0B: #3fb950; /* green — strings */
+	--base0C: #39c5cf; /* cyan — regex, support */
+	--base0D: #58a6ff; /* blue — functions, links */
+	--base0E: #bc8cff; /* purple — keywords */
+	--base0F: #ffa198; /* bright red — deprecated */
+}
